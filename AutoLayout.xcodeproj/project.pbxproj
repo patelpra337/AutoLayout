@@ -12,6 +12,8 @@
 		AB95CB67227A870800C21581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB95CB65227A870800C21581 /* Main.storyboard */; };
 		AB95CB69227A870900C21581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB95CB68227A870900C21581 /* Assets.xcassets */; };
 		AB95CB6C227A870900C21581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB95CB6A227A870900C21581 /* LaunchScreen.storyboard */; };
+		AB95CB78227A8B7800C21581 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95CB77227A8B7800C21581 /* BackgroundView.swift */; };
+		AB95CB7A227A8B8500C21581 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB95CB79227A8B8500C21581 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AB95CB68227A870900C21581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB95CB6B227A870900C21581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB95CB6D227A870900C21581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB95CB77227A8B7800C21581 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		AB95CB79227A8B8500C21581 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		AB95CB60227A870800C21581 /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				AB95CB77227A8B7800C21581 /* BackgroundView.swift */,
+				AB95CB79227A8B8500C21581 /* CustomTextField.swift */,
 				AB95CB61227A870800C21581 /* AppDelegate.swift */,
 				AB95CB63227A870800C21581 /* ViewController.swift */,
 				AB95CB65227A870800C21581 /* Main.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB95CB7A227A8B8500C21581 /* CustomTextField.swift in Sources */,
+				AB95CB78227A8B7800C21581 /* BackgroundView.swift in Sources */,
 				AB95CB64227A870800C21581 /* ViewController.swift in Sources */,
 				AB95CB62227A870800C21581 /* AppDelegate.swift in Sources */,
 			);
